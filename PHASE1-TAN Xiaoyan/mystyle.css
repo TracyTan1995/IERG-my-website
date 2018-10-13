@@ -1,0 +1,224 @@
+<style>
+li a{
+    text-decoration:none;
+	color:#000;
+	}
+li a:hover{
+    text-decoration:underline;
+	}
+#header{
+    margin:0px;
+	height:35px;
+	background-color:#EEEEEE;
+	direction:rtl;
+	font-family:"Courier New";
+  font-size:12px;
+	}
+.head{
+    list-style-type:none;
+	padding:10px;
+	margin:5px;
+	}
+.head li{
+	padding-right:5px;
+	display:inline;
+	margin:10px;
+    }
+#logo{
+    margin:20px;
+	text-align:center;
+    }
+#logo img{
+	width:300px
+}
+#nav{
+    border-style:outset none outset none;
+	margin:0px;
+	}
+.navi{
+    list-style-type:none;
+	padding:10px;
+	margin:5px;
+	text-align:center;
+	}
+.navi li{
+	padding-right:5px;
+	display:inline;
+	margin:10px;
+	font-size:12px;
+	}
+.mainp{
+    margin:5px;
+	text-align:center;
+	border-bottom-style:solid;
+	border-bottom-color:#C0C0C0;
+  width:100%;
+    }
+.mainp img{
+  width:95%;
+}
+.label{
+    text-align:center;
+	font-size:20px;
+	}
+.sublabel{
+	font-size:15px;
+	margin:10px;
+	}
+.sublabel a{
+    text-decoration:none;
+	color:#000;
+	}
+.sublabel a:hover{
+    text-decoration:underline;
+	}
+.product_list{
+    text-align:center;
+	height:800px;
+	}
+.product_list a{
+    text-decoration:none;
+	color:#000;
+	}
+.product_list a:hover{
+    text-decoration:underline;
+	}
+.product{
+    width:33%;
+	height:400px;
+	float:left;
+	}
+.product_image{
+	height:250px
+}
+.product_image img{
+    width:100%;
+	max-width:200px;
+	}
+.product_name{
+    margin-top:20px;
+	font-size:15px;
+	font-weight:bold;
+	}
+.product_price{
+    margin:5px;
+	font-size:15px;
+	}
+.add_button{
+    font-size:12px;
+	}
+.last{
+    text-align:center;
+	border-top-style:solid;
+	border-top-color:#C0C0C0;
+	}
+.dropdown{
+    position:relative;
+    display:inline-block;
+}
+.cart{
+    display:none;
+	width:300px;
+	height:260px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	background-color:#fff;
+	}
+.cart_content{
+    width:300px;
+	height:90px;
+	border-bottom-style:solid;
+	}
+.total{
+    width:800px;
+	height:50px;
+	}
+.cart_image img{
+    width:50px;
+	height:50px;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+	}
+.cart_name{
+    width:80px;
+	height:80px;
+	float:left;
+	font-size:10px;
+	padding-top:13px;
+	margin-right:10px;
+    }
+.cart_name a{
+    text-decoration:none;
+	color:#000;
+	}
+.cart_name a:hover{
+    text-decoration:underline;
+	}
+.cart_number input{
+    width:20px;
+	height:20px;
+	float:left;
+	margin-top:10px;
+	}
+.cart_price{
+    width:100px;
+	height:80px;
+	float:left;
+	}
+.delete_button img{
+    width:25px;
+	height:20px;
+	float:left;
+	margin-top:13px;
+	}
+.dropdown:hover .cart{
+    display:block;
+}
+.total{
+    height:30px;
+	margin-right:10px;
+	}
+.check_out{
+    margin-right:10px;
+	}
+.show{
+	height:400px;
+}
+.show_image{
+	width:400px;
+    height:400px;
+	float:left;
+	margin-left:100px;
+	margin-right:100px;
+}
+.show_image img{
+	width:400px;
+	height:400px;
+	float:left;
+}
+.show_name{
+	font-weight:bold;
+	font-size:25px;
+}
+.show_price{
+	font-size:20px;
+	margin-left:100px
+}
+.button{
+	background-color:#e7e7e7;
+	font-weight:bold;
+	color:black;
+	border:outset;
+	height:50px;
+	width:300px;
+	text-align:center;
+	font-size:18px;
+}
+.show_details{
+	margin-top:50px;
+	font-size:12px;
+	border:outset;
+	margin-left:600px;
+}
+
+</style>
